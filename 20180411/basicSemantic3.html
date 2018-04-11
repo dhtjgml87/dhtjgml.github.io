@@ -1,11 +1,38 @@
-<!DOCTYPEhtml>  <!-- basicSemantic3.html -->
+<!DOCTYPEhtml>  <!--  basicSemantic2.html -->
 <html lang="ko">
 <head>
-   <meta charset="utf-8"/>
-   <meta name="viewport" content="width=device=width=device-width, initial-scale=1"/>
-   <title>HTML5오디오 실습</title>
-</head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device=width=device-width, initial-scale=1"/>
+<style>
+	header, nav, section, article, aside, footer
+	{border:1px solid gray; margin:5px; padding:8px; width:1000px;}
+	headering {width;990px; height:200px}
+	section {width:750px; float:left;}
+	section section {width:725px; float:left;}
+	aside{width:221px; float:left; line-height:30px;}
+	footer{height:50px; clear:both;}
+	nav ul {margin:0; padding:0;}
+	nav ul li{display:inline; margin:5px;}
+	aside ul {margin:0; padding:0;}
+	aside ul li{display:block; margin:5px}
+	aside ul li Img {width:50px; height:50px;}
+	a:link{color:blue; background-color:transparent: text-decoration:none;}
+	a:visited{color:pink; background-color:transparent: text-decoration:none;}
+	a:hover{color:red; background-color:transparent; text-decoration:underline;}
+	a:active{color:blue; background-color:transparent; text-decoration:none;}
+</style>
+<title>시멘틱 학습</title></head>
 <body>
+	<header>
+		<h2>실습을 환영합니다</h2>
+		<img src="scene.png"alt="히말라야"/>
+	</header>
+	<nav>
+		<ul>
+		<li><a href="http://www.naver.com"target="_blank">네이버(새윈도우)</a></li>
+		<li><a href="anchor2.html">사이트내문서이동</a></li>
+		<li><a href="#chapter1">제1장이동(북마크이동)</a></li></ul>
+	</nav>
 <section>	<!-- main -->
 	<section><a href="anchor2.html"><h3 id="chapter1">오늘의 교통상황</h3></a>
 		<p>오늘의 교통상황을 비디오로 제공합니다. 장소는 대한민국 만세로 입니다. 많은 자동차로 붐비고 있습니다.
@@ -34,4 +61,11 @@
 		<ul>
 		<li><a href="https://www.google.com"><img src="googlePlus.png" alt="구글"/></a></li>
 		<li><a href="https://www.facebook.com"><img src="facebookOne.png" alt="페이스북"/></a></li>
-		<li><a href="https://www.twitter.com"><img src="twitterYou.png" al
+		<li><a href="https://www.twitter.com"><img src="twitterYou.png" alt="트위터"/></a></li>
+		</ul>
+	</aside>
+	<footer>
+		<p>&copy; 20XX Made by Korea. All rights reserved.</p>
+	</footer>
+</body>
+</html>
